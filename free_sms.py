@@ -116,7 +116,7 @@ class sms(object):
 			return self.choice(result,md5,target)
 		self.message(result,md5,target[self.num-1])
 	
-	# Message Body And Sending Paramerer
+	# Message Body And Sending Parameters
 	def message(self,result,md5,target):
 		print("%s MAX: 100 characters"%(warn))
 		self.msg=raw_input("%s Message: "%(ask))
