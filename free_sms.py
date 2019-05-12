@@ -24,7 +24,7 @@ good    = "{}[!]{}".format(G,N)
 warn    = "{}[!]{}".format(O,N)
 ask = "{}[?]{}".format(R,N)
 
-class sms:
+class sms(object):
 	def __init__(self):
 		os.system("clear")
 		print("\t   [ Only Works In Termux Api ]")
